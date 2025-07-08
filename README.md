@@ -42,6 +42,7 @@ This project is fully compatible with GitHub Pages and can be easily deployed th
 
 If you plan to deploy to GitHub Pages, update the `base` option in `vite.config.js` to match your repository name:
 
+Always build before pushing your changes for latest deployment.
 ## Project Structure
 
 ```
