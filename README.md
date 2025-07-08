@@ -40,6 +40,8 @@ npm run fmt
 
 This project is fully compatible with GitHub Pages and can be easily deployed there for free static site hosting.
 
+If you plan to deploy to GitHub Pages, update the `base` option in `vite.config.js` to match your repository name:
+
 ## Project Structure
 
 ```
@@ -59,7 +61,3 @@ vanilla-js/
 
 ## License
 [MIT](./LICENSE)
-
-## Deployment
-
-This project is fully compatible with GitHub Pages and can be easily deployed there for free static site hosting.
