@@ -24,9 +24,10 @@ npm run dev
 ```
 Visit [http://localhost:5173](http://localhost:5173) to see your app.
 
-### 3. Build for production
+### 3. Build for production and preview
 ```sh
 npm run build
+npm run preview
 ```
 
 ### 4. Linting and formatting your code
@@ -34,6 +35,10 @@ npm run build
 npm run lint
 npm run fmt
 ```
+
+## Deployment
+
+This project is fully compatible with GitHub Pages and can be easily deployed there for free static site hosting.
 
 ## Project Structure
 
@@ -54,3 +59,7 @@ vanilla-js/
 
 ## License
 [MIT](./LICENSE)
+
+## Deployment
+
+This project is fully compatible with GitHub Pages and can be easily deployed there for free static site hosting.
