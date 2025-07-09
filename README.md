@@ -16,6 +16,8 @@ A minimal, modern starter template for building web pages and apps with **Vanill
 - 📑 Combined linting and accessibility reports (JSON/text output in `log/`)
 
 ---
+## Pre requisites
+Recommended Node Version: 20+
 
 ## Getting Started
 
