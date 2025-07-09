@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 
 export default defineConfig({
   // This is the base path for the project.
@@ -6,8 +6,8 @@ export default defineConfig({
   // For example, if the project is hosted at https://yourusername.github.io/vaniila-js,
   // then the base path should be 'vaniila-js'.
   // This is useful for deploying the project to GitHub Pages.
-  base: '/vaniila-js/',
+  base: "/vaniila-js/",
   build: {
-    outDir: 'docs',
+    outDir: "docs",
   },
 });
