@@ -1,9 +1,18 @@
 # Logs
-logs/*
+logs
 *.log
 
+# Dependencies
 node_modules
+
+# Build
 dist
+
+# design
+*.xd
+*.fig
+*.sketch
+figma
 
 # Editor directories and files
 .idea

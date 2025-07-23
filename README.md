@@ -1,6 +1,39 @@
-# Vanilla JS + TypeScript Bootstrap Starter
+# Frontend Mentor - Article Preview solution
 
-A minimal, modern starter template for building web pages and apps with **Vanilla JavaScript** and **TypeScript**. This project structure is designed for real-world development, emphasizing maintainability, scalability, and best practices for modern web applications.
+This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Major Features](#major-features)
+- [Pre Requisites](#pre-requisites)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
+- [Author](#author)
+- [Deployment](#deployment)
+- [License](#license)
+
+---
+
+## Overview
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [Solution](https://github.com/guptaujjwal1128/article-preview)
+- Live Site URL: [Live Site](https://guptaujjwal1128.github.io/article-preview/)
 
 ---
 
@@ -20,15 +53,6 @@ A minimal, modern starter template for building web pages and apps with **Vanill
 ## Pre requisites
 
 Recommended Node Version: 20+
-
----
-
-## Editor Compatibility
-
-- **VS Code**: Out-of-the-box support for format-on-save, Prettier, and workspace settings via `.vscode/settings.json`.
-- **EditorConfig**: Ensures consistent indentation and line endings across all major editors (VS Code, WebStorm, Sublime, Atom, etc.).
-- **Prettier**: Auto-formats code on save for all supported file types.
-- **Other Editors**: Most modern editors support EditorConfig and Prettier via plugins or built-in features.
 
 ---
 
@@ -57,29 +81,6 @@ Recommended Node Version: 20+
 
 ---
 
-## SASS File Structure for Real-World Reusability
-
-The `src/styles/` directory is organized for scalable, maintainable styling in large projects:
-
-```
-src/styles/
-├── index.scss        # Main entry point, imports all partials
-├── _variables.scss   # Design tokens: colors, spacing, fonts, etc.
-├── _mixins.scss      # Reusable mixins (media queries, helpers)
-├── _reset.scss       # CSS reset/normalize
-├── _components.scss  # (Optional) Component-level styles
-├── _layout.scss      # (Optional) Layout/grid helpers
-└── ...               # Add more partials as your project grows
-```
-
-- **index.scss**: Import all partials here; import only this file in your app entry.
-- **\_variables.scss**: Central place for all design tokens for easy theming.
-- **\_mixins.scss**: Store all mixins/functions for DRY code.
-- **\_reset.scss**: Normalize browser styles for consistency.
-- **\_components.scss, \_layout.scss**: Organize styles by responsibility for real-world scalability.
-
----
-
 ## Project Structure
 
 ```
@@ -101,6 +102,45 @@ vanilla-js/
 ├── LICENSE                # Project license
 └── ...                    # Other config and dotfiles
 ```
+
+---
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Gridbox and Flexbox
+- Responsive Design
+- Accessibility
+- Vite - Module Bundler
+- VanillaJs + Typescript
+
+### What I learned
+
+- HTML structuring
+- Responsive Design
+- Accessibility
+
+### Continued development
+
+- Frontend Mentor Learning Path
+- React
+- Redux
+- Next
+- Frontend System Design
+
+### Useful resources
+
+- Frontend Mentor Community
+
+---
+
+## Author
+
+- Website - [Ujjwal Gupta](https://www.linkedin.com/in/ujjwal-gupta-671588154/)
+- Frontend Mentor - [@guptaujjwal1128](https://www.frontendmentor.io/profile/guptaujjwal1128)
+- Twitter - [@guptaujjwal1128](https://www.twitter.com/guptaujjwal1128)
 
 ---
 
